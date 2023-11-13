@@ -1,6 +1,7 @@
 body {
     position: relative;
     overflow-x: hidden; 
+    background-color: #0a0a0a;
     /* white-space: nowrap; */
 }
 
@@ -17,7 +18,7 @@ body {
 #genre-title {
     position: absolute;
     top: 285px;
-    color: white;
+    color: #0d0d3c;
     background-color: #e4c6ff;
     font-family: "Roboto Regular", sans-serif;
     font-size: 60px;
@@ -44,12 +45,13 @@ body {
 }
 
 #view-more {
-    border: black solid 1.5px;
+    border: white solid 1.5px;
     background-color: transparent;
     border-radius: 5px;
     height: 35px;
     width: 100px;
     transition: all 0.3s;
+    color: white;
 }
 
 #view-more:hover{
