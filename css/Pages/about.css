@@ -1,7 +1,7 @@
 body {
     position: relative;
     overflow-x: hidden;
-    /* background-color: #0a0a0a; */
+    background-color: #0a0a0a;
     /* white-space: nowrap; */
     margin: 0;
     padding: 0;
@@ -13,47 +13,44 @@ html{
 }
 
 .about-container {
-    display: grid;
-    grid-template-rows: repeat(5, 1fr);
-    grid-template-columns: repeat(7, 1fr);
-    height: 600px;
-    margin: 3rem;
-    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
 }
 
 .bg {
-    grid-row: 1 / 4;
-    grid-column: 1 / 8;
-    background-color: #91d6fc;
-    z-index: -1;
+    align-self: center;
 }
 
-#about-heading {
-    grid-column: 2 / 7;
-    grid-row: 1 / 2;
-    font-family: "Merriweather";
-    font-size: 45px;
-    align-self: center;
-    justify-self: center;
+.intro-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+}
+
+.bottom {
+    display: flex;
+    margin: 5rem;
 }
 
 #my-pic {
-    grid-column: 2 / 7;
-    grid-row: 2 / 6;
-    /* object-fit: cover; */
-    height: 400px;
-    z-index: 1;
-    align-self: center;
+    margin-bottom: 75px;
     justify-self: center;
+    border-radius: 10px;
 }
 
 .content {
     margin: 5rem;
     margin-top: 0;
+    color: white;
+    width: 75%;
 }
 
 .heading {
     font-weight: 700;
+    color: white;
 }
 
 #footer-separator {
