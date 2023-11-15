@@ -22,6 +22,11 @@ html{
     align-self: center;
 }
 
+.bg>img{
+    width: 75vw;
+    height: auto;
+}
+
 .intro-content {
     display: flex;
     flex-direction: column;
@@ -65,4 +70,10 @@ html{
 #footer-rights {
     color: black;
     font-weight: 600;
+}
+
+@media screen and (max-width: 768px){
+    #my-pic{
+        display: none;
+    }
 }

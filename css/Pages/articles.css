@@ -60,3 +60,9 @@ h4 {
 .genre-heading>p>a {
     color: white;
 }
+
+@media screen and (max-width: 768px){
+    h4{
+        display: none;
+    }
+}

@@ -15,6 +15,7 @@
 
 .top-articles-card {
     height: 400px;
+    max-width: 300px;
     min-width: 300px;
     width: 100%;
     background-color: white;
