@@ -1,6 +1,6 @@
 body {
     position: relative;
-    overflow-x: hidden; 
+    overflow-x: hidden;
     background-color: #0a0a0a;
     /* white-space: nowrap; */
 }
@@ -38,7 +38,7 @@ body {
     border: grey solid 1.5px;
 }
 
-.view-more-btn{
+.view-more-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,7 +54,7 @@ body {
     color: white;
 }
 
-#view-more:hover{
+#view-more:hover {
     border-color: #e4c6ff;
     background-color: #e4c6ff;
     color: black;
@@ -81,6 +81,12 @@ footer {
 }
 
 .socials-btn:hover {
-    background-color:white;
+    background-color: white;
     border-color: white;
+}
+
+@media screen and (max-width: 768px) {
+    #genre-title {
+        top: 590px;
+    }
 }
